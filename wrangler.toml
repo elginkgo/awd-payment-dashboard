@@ -1,8 +1,9 @@
 name = "awd-dashboard"
 pages_build_output_dir = "dist"
+compatibility_date = "2026-05-12"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "awd_db"
-database_id = "local" # Use "local" for local dev, will be replaced with real ID on deploy
+database_id = "local" 
 migrations_dir = "migrations"
