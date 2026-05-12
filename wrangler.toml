@@ -1,0 +1,8 @@
+name = "awd-dashboard"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "awd_db"
+database_id = "local" # Use "local" for local dev, will be replaced with real ID on deploy
+migrations_dir = "migrations"
