@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import { Farmer } from './types';
+import { useState, useEffect, useMemo } from 'react';
+import type { Farmer } from './types';
 import initialData from './data.json';
 
 const GROUPINGS = ['PTG', 'CPA6', 'CPA3', 'CPA4', 'CPA1', 'CPA2', 'CPA5'];
@@ -8,7 +8,6 @@ function App() {
   const [farmers, setFarmers] = useState<Farmer[]>([]);
   const [search, setSearch] = useState('');
   const [groupFilter, setGroupFilter] = useState('');
-  const [loading, setLoading] = useState(false);
 
   // Initialize data
   useEffect(() => {
