@@ -1,6 +1,9 @@
 name = "awd-payment-dashboard"
-pages_build_output_dir = "dist"
 compatibility_date = "2026-05-12"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
 
 [[d1_databases]]
 binding = "DB"
